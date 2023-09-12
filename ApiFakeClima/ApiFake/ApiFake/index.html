@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima Tempo</title>
+
+    <link rel="shortcut icon" href="https://o.remove.bg/downloads/2af52a67-c826-4e2d-b2af-9c7b91a2264d/download-removebg-preview.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="tudo"> <!--COMEÇO-->
+
+        <h2 class="titulo">Informações do tempo</h2>
+
+
+        
+        <input type="text" class="caixa" id="climaInput" placeholder="Digite o lugar:">
+        
+
+        <button class="botao" onclick="climaTempo()">Verificar Clima</button>
+
+
+        <button class="botao2" onclick="buscaCidade()">Buscar Cidade no Mapa</button>
+
+        
+        <div class="informacao" id="resultado"></div>
+        
+
+        <script src="api.js"></script>
+
+
+    </div> <!--FIM-->
+
+
+
+
+
+    
+</body>
+</html>

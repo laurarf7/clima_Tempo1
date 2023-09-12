@@ -1,0 +1,48 @@
+  
+body{
+    background-image: url(https://www.cartacapital.com.br/wp-content/uploads/2020/01/planeta-terra-e1586467949319.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.tudo{
+   
+    padding: 10px;
+    width: 1000px;
+    height: 700px;
+    background-color:rgba(240, 248, 240, 0.521);   /*esse rgba significa red, green, blue, a= transparência*/
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-top: 190px;
+}
+.titulo{
+    font-size: xx-large;
+}
+
+.botao{
+
+    margin-left: 100px;
+    margin-top: 150px;
+    height: 30px;
+   
+}
+
+.botao2{
+    margin-left: 150px;
+    margin-top: 40px;
+    height: 30px;
+}
+
+.caixa{
+    height: 30px;
+    width: 400px;
+    margin-top: 40px;
+}
+
+.informacao{
+    
+    margin-top: 100px;
+    font-size: larger;
+}
